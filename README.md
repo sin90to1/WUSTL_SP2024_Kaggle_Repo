@@ -3,6 +3,7 @@
 Competition URL: https://www.kaggle.com/competitions/applications-of-deep-learning-wustl-spring-2024/overview
 
 Team members: Bojia Shi; Alyssa Ho; Mengxiao Li
+
 Team name: MBTMan
 
 In this competition, we have tested on several models:
