@@ -15,16 +15,14 @@ ResNet-34 has the best result, with a final score of around 5.7 after 3 submissi
 
 ## Project Structure
 
-best_model.pth: The trained best model. Here it is ResNet-34
+├── best_model.pth: The trained best model. Here it is ResNet-34
+├── resnet_18.py: ResNet-18 model
+├── resnet_34.py: ResNet-34 model (Our final solution)
+├── data_augmentation.py: Data augmentation based on age distribution in the training set
+├── solution.ipynb: ViT (Test version)
+├── vit.ipynb & vit.py: Visual Transformer (Pretrained version)
+├── test.py: Test the best model and output the result to the submission.csv file
+├── submission.csv: The CSV file for submission
+├── file_in_root.ext
+└── README.md
 
-resnet_18.py: ResNet-18 model
-
-resnet_34.py: ResNet-34 model (Our final solution)
-
-data_augmentation.py: Data augmentation based on age distribution in the training set
-
-solution.ipynb: ViT (Test version)
-
-vit.ipynb & vit.py: Visual Transformer (Pretrained version)
-
-test.py: Test the best model and output the result to the submission.csv file
